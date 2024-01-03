@@ -41,7 +41,7 @@ Both end of this cable is now in `DOWN` state. Let's turn into `UP` state
 
 ```bash
 sudo ip netns exec ns0 ip link set ceth0 up
-sudo ip link set veth br0
+sudo ip link set veth0 up
 ```
 
 ## Configure ns0 namespace
